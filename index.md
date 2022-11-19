@@ -45,7 +45,7 @@ I was introduced to the fundamentals of back-end development with Java and Sprin
 `2017-2019`
 __Research Assistant, Sapienza University of Rome__
 
-I contributed to the creation of an AMR-like adjective lexicon for the [MOUSSE](http://mousse-project.org/) project in the Linguistic Computing Laboratory (LCL) of the CS dept. of Sapienza University of Rome.
+I contributed to the creation of an AMR-like adjective lexicon for the [MOUSSE](http://mousse-project.org/) project in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
 
 `Oct:2017-Dec:2017`
 __Linguistic Consultant, Babelscape__
@@ -107,4 +107,8 @@ __Linux Foundation Training (LiFT) Scholarship__
 I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
 
 <br><br>
-<!-- ### Footer Last updated: 19 November 2022 -->
+
+<!-- thanks to Eliseo Papa: https://elipapa.github.io/markdown-cv/ -->
+
+<!-- ### Footer 
+Last updated: 19 November 2022 -->
