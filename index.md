@@ -25,44 +25,36 @@ Java, Go, GNU/Linux, Containers & Kubernetes
 `2021 - now`
 __Application Development Specialist, Accenture__
 
-- I'm developing containerized microservices in Go supporting a
-data governance infrastructure based upon Microsoft Azure.
+I'm developing containerized microservices in Go supporting a data governance infrastructure based upon Microsoft Azure.
 
 `2020-2021`
 __Application Development Senior Analyst, Accenture__
 
-- I developed a bunch of Java applications based on Quarkus and deployed to Openshift Container Platform to manage corporate accounts for a private bank operating in Europe. 
-- I had the chanche to work in an Agile/scrum environment for the first time.
+I developed a bunch of Java applications based on Quarkus and deployed to Openshift Container Platform to manage corporate accounts for a private bank operating in Europe. I had the chanche to work in an Agile/scrum environment for the first time.
 
 `2019-2020`
 __Application Development Analyst, Accenture__
 
-- Development of RESTful web services with common Java frameworks, libraries and tools (Maven, Spring, Hibernate, Tomcat, Jackson, Junit, Mockito, MySQL, PostgreSQL, SLF4J, SonarQube) 
-- deployed to popular cloud providers (Cloud Foudry, Amazon EC2).
-- I started actively using the Windows Subsystem for Linux (WSL v.1) as my regular development environment with the support of VS Code.
+Development of RESTful web services with common Java frameworks, libraries and tools (Maven, Spring, Hibernate, Tomcat, Jackson, Junit, Mockito, MySQL, PostgreSQL, SLF4J, SonarQube) deployed to popular cloud providers (Cloud Foudry, Amazon EC2). I started actively using the Windows Subsystem for Linux (WSL v.1) as my regular development environment with the support of VS Code.
 
-`Mar2019-Jul2019`
+`Mar:2019-Jul:2019`
 __Internship Trainee, Accenture__
 
-- I was introduced to the fundamentals of back-end development with Java +
-Spring (Boot) and the related tech stack.
+I was introduced to the fundamentals of back-end development with Java and Spring (Boot) and the related tech stack.
 
 `2017-2019`
 __Research Assistant, Sapienza University of Rome__
 
-- I contributed to the creation of an AMR-like adjective lexicon for the [MOUSSE
-project](http://mousse-project.org/) in the Linguistic Computing Laboratory
-(LCL) of the CS dept. of Sapienza University of Rome.
+I contributed to the creation of an AMR-like adjective lexicon for the [MOUSSE](http://mousse-project.org/) project in the Linguistic Computing Laboratory (LCL) of the CS dept. of Sapienza University of Rome.
 
-`Oct2017-Dec2017`
+`Oct:2017-Dec:2017`
 __Linguistic Consultant, Babelscape__
 
-- Creation and validation of natural language training corpus for machine
-learning.
+Creation and validation of natural language training corpus for machine learning.
 
 ### Volunteering
 
-`Sept2017-Oct2017`
+`Sept:2017-Oct:2017`
 __Library Digital Curator, Servizio Civile Nazionale__
 
 - Cataloguing and digitization of digital assets belonging to the Faculty of Arts of the Sapienza University of Rome.
@@ -75,13 +67,13 @@ __Library Digital Curator, Servizio Civile Nazionale__
 
 `2021`
 
-- Linux Foundation Certified System Administrator (**LFCS**) (id: `LF-5pc0sfs1rs`)
+- Linux Foundation Certified System Administrator (**LFCS**) --- id: `LF-5pc0sfs1rs`
 - Essentials of Linux System Administration (**LFS201**)
 - Red Hat OpenShift Development II: Containerizing Applications (**DO288**)
 
 `2022`
 
-- Certified Kubernetes Application Developer (**CKAD**) (id: `LF-ja2b3qn3x6`)
+- Certified Kubernetes Application Developer (**CKAD**) --- id: `LF-ja2b3qn3x6`
 - Kubernetes for Developers (**LFD259**)
 
 ## Languages
@@ -112,12 +104,7 @@ __Liceo Ginnasio Immanuel Kant, Rome__
 `2020` 
 __Linux Foundation Training (LiFT) Scholarship__ 
 
-- I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship providing free training and one certification exam offered by The Linux Foundation.
-- I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
+I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
 
 
-
-
-<!-- ### Footer
-
-Last updated: 19 November 2022 -->
+<!-- ### Footer Last updated: 19 November 2022 -->
