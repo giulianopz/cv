@@ -1,91 +1,128 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Giuliano Panzironi's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Giuliano Panzironi
+Software Developer
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="panzironi.giuliano@gmail.com">panzironi.giuliano@gmail.com</a>
+| <a href="https://github.com/giulianopz">github</a>
+| <a href="https://www.linkedin.com/in/giuliano-panzironi/">linkedin</a>
+| <a href="https://twitter.com/giulianopz">twitter</a>
 </div>
 
+## Overview
 
-## Currently
+Backend developer. I joined Accenture in 2019, mostly working on projetcs dealing with telecommunications and financials services. I was a Linguistics graduate (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief excursion into academia as research assistant in the NLP group of the CS department of my uni, Sapienza University of Rome.
 
-Standing on the shoulders of giants
+### Core Skills
 
-### Specialized in
+Java, Go (Programming Language), GNU/Linux, Containers & Kubernetes
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+### Professional Experience
 
+`2021 - now`
+__Application Development Specialist, Accenture__
 
-### Research interests
+-   I'm developing containerized microservices in Go supporting a
+data governance infrastructure based upon Microsoft Azure.
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+`2020-2021`
+__Application Development Senior Analyst, Accenture__
 
+- I developed a bunch of Java applications based on Quarkus and deployed to
+Openshift Container Platform to manage corporate accounts for a private bank
+operating in Europe.
+
+- I had the chanche to work in an Agile/scrum environment for the first time.
+
+`2019-2020`
+__Application Development Analyst, Accenture__
+
+- Development of RESTful web services with common Java frameworks,
+libraries and tools (Maven, Spring, Hibernate, Tomcat, Jackson, Junit, Mockito,
+MySQL, PostgreSQL, SLF4J, SonarQube) deployed to popular cloud providers
+(Cloud Foudry, Amazon EC2).
+
+- I started actively using the Windows Subsystem for Linux (WSL v.1) as my
+regular development environment with the support of VS Code.
+
+`Mar2019-Jul2019`
+__Internship Trainee, Accenture__
+
+- I was introduced to the fundamentals of back-end development with Java +
+Spring (Boot) and the related tech stack.
+
+`2017-2019`
+__Research Assistant, Sapienza University of Rome__
+
+- I contributed to the creation of an AMR-like adjective lexicon for the [MOUSSE
+project](http://mousse-project.org/) in the Linguistic Computing Laboratory
+(LCL) of the CS dept. of Sapienza University of Rome
+
+`Oct2017-Dec2017`
+__Linguistic Consultant, Babelscape__
+
+- Creation and validation of natural language training corpus for machine
+learning.
+
+### Volunteering
+
+`Sept2017-Oct2017`
+__Library Digital Curator, Servizio Civile Nazionale__
+
+- Cataloguing and digitization of digital assets belonging to the Faculty of Arts of the Sapienza University of Rome.
+
+## Certifications
+
+`2020`
+
+- VMware Spring Professional
+
+`2021`
+
+- Linux Foundation Certified System Administrator (LFCS) (id: `LF-5pc0sfs1rs`)
+- Essentials of Linux System Administration (LFS201)
+- Red Hat OpenShift Development II: Containerizing Applications (DO288)
+
+`2022`
+
+- Certified Kubernetes Application Developer (CKAD) (id: `LF-ja2b3qn3x6`)
+- Kubernetes for Developers (LFD259)
+
+## Languages
+
+- Italian
+- English
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2015-2017`
+__Sapienza University of Rome, Rome__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- Master's degree, Linguistics
 
-- Sizar
+`2012-2015`
+__Sapienza University of Rome, Rome__
 
-`1667 - death`
-__Trinity College, Cambridge__
+- Bachelor's degree, Classics
 
-- Fellow
+`2005-2010`
+__Liceo Ginnasio Immanuel Kant, Rome__
 
-
+- High School diploma in classical studies, Liceo Classico
 
 ## Awards
 
-`2012`
-President, *Royal Society*, London, UK
+`2020` 
+Linux Foundation Training (LiFT) ScholarshipLinux Foundation Training (LiFT) Scholarship 
 
-Associate, *French Academy of Science*, Paris, France
+- I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship providing free training and one certification exam offered by The Linux Foundation. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
 
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
 
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
-
-
+Last updated: 19 November 2022 -->
