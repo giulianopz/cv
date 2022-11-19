@@ -83,8 +83,8 @@ __Library Digital Curator, Servizio Civile Nazionale__
 
 ## Languages
 
-- Italian
-- English
+- Native: Italian
+- Fluent-Enough: English
 
 ## Education
 
