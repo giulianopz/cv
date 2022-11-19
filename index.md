@@ -106,5 +106,5 @@ __Linux Foundation Training (LiFT) Scholarship__
 
 I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
 
-
+<br><br>
 <!-- ### Footer Last updated: 19 November 2022 -->
