@@ -110,9 +110,9 @@ __Liceo Ginnasio Immanuel Kant, Rome__
 ## Awards
 
 `2020` 
-__Linux Foundation Training (LiFT) ScholarshipLinux Foundation Training (LiFT) Scholarship__ 
+__Linux Foundation Training (LiFT) Scholarship__ 
 
-- I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships scholarship providing free training and one certification exam offered by The Linux Foundation.
+- I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) scholarship providing free training and one certification exam offered by The Linux Foundation.
 - I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes [here](https://github.com/giulianopz/lfcs).
 
 
