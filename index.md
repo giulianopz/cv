@@ -108,7 +108,7 @@ I was awarded a [LiFT](https://www.linuxfoundation.org/about/lift-scholarships) 
 
 <br><br>
 
-<!-- thanks Eliseo Papa: https://elipapa.github.io/markdown-cv/ -->
+<!-- thanks, Eliseo Papa: https://elipapa.github.io/markdown-cv/ -->
 
 <!-- ### Footer 
 Last updated: 19 November 2022 -->
