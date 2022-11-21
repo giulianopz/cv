@@ -69,13 +69,13 @@ __Library Digital Curator, Servizio Civile Nazionale__
 `2021`
 
 - Essentials of Linux System Administration (**LFS201**)
-- Linux Foundation Certified System Administrator (**LFCS**) --- id: `LF-5pc0sfs1rs`
+- Linux Foundation Certified System Administrator (**LFCS**) --- [id: [**LF-5pc0sfs1rs**](https://training.linuxfoundation.org/certification/verify/)]
 - Red Hat OpenShift Development II: Containerizing Applications (**DO288**)
 
 `2022`
 
 - Kubernetes for Developers (**LFD259**)
-- Certified Kubernetes Application Developer (**CKAD**) --- id: `LF-ja2b3qn3x6`
+- Certified Kubernetes Application Developer (**CKAD**) --- [id: [**LF-ja2b3qn3x6**](https://training.linuxfoundation.org/certification/verify/)]
 
 ## Languages
 
