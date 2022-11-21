@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Giuliano Panzironi's CV
+title: giuliano panzironi
 ---
 # Giuliano Panzironi
 Software Developer
@@ -14,7 +14,7 @@ Software Developer
 
 ## Overview
 
-Backend developer. I joined Accenture in 2019, mostly working on projetcs dealing with telecommunications and financials services. I was a Linguistics graduate (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief excursion into academia as research assistant in the NLP group of the CS department of my uni, Sapienza University of Rome.
+I'm a backend developer, working in IT consulting since 2019. For the past few years, I've been busy with server-side projetcs, distributed systems and cloud development to build telecommunications and financials services, mostly. I was a Linguistics graduate (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief excursion into academia as research assistant in the NLP group of my uni.
 
 ### Core Skills
 
