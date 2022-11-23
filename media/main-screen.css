@@ -1,21 +1,89 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -53,41 +140,43 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 80%;
+	font-size: 100%;
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Verdana,sans-serif;
+	font-family: Avenir, Verdana, sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
 }
 
 p {
 	position: relative;
-	left: 33%;
+	left: 25%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 65%;
+	width: 55%;
+	text-align: left;
 }
 
 code {
 	font: normal normal;
-	font-size: 60%;
+	font-size: 90%;
 	/*line-height: 1em;*/
-	font-family: Menlo,monospace,sans-serif;
-	color: #aaa;
+	font-family: Monaco, Menlo, monospace, sans-serif;
+	color: rgb(0, 0, 0);
 }
 
 p code {
 	position: absolute;
-	left: -14%;
+	text-align: left;
+	left: -17%;
 }
 
 
-ul { 
+ul {
 	position: relative;
-	left: 33%;
-	width: 65%;
-	margin-bottom: 1.5em;
+	left: 25%;
+	width: 75%;
+	margin-bottom: 0;
 	margin-top: -0.5em;
 }
 
@@ -112,10 +201,13 @@ li ul {
 	margin-top: 0.25em;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-weight: 400;
-	font-family: Cousine,Verdana,sans-serif;
-	width: 65%;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
+	width: 80%;
 }
 
 h1 {
@@ -123,10 +215,10 @@ h1 {
 	font-size: 3em;
 	line-height: 1em;
 	position: relative;
-	left: 33%;
+	left: 25%;
 }
 
-h1+p { 
+h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
@@ -134,7 +226,7 @@ h1+p {
 
 h2 {
 	font-size: 1.1em;
-	color: #a00;
+	color: #211c9e;
 	margin-top: 3em;
 	position: relative;
 	top: 1.4em;
@@ -144,7 +236,8 @@ h2 {
 
 h3 {
 	font-size: 1em;
-	line-height: 2em; 
+	color: #211c9e;
+	line-height: 2em;
 	position: relative;
 	top: 1.7em;
 	text-align: right;
@@ -157,16 +250,16 @@ a {
 }
 
 a:hover {
-	color:#39f
+	color: #39f
 }
 
 #webaddress {
 	margin-top: 1em;
 	position: relative;
-	left: 33%;
-	color: #aaa;
-	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
+	left: 25%;
+	color: #11118e;
+	font-family: Monaco, Menlo, monospace, sans-serif;
+	font-size: 100%;
 }
 
 #webaddress a {
@@ -174,7 +267,7 @@ a:hover {
 }
 
 em {
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-style: italic;
 }
 
@@ -186,7 +279,32 @@ strong {
 	display: none;
 }
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.section_title {
+	padding-bottom: 30px;
+	font-size: larger;
+	text-align: right;
+	padding-right: 35px;
+}
+
+.job_duration {
+	text-align: right;
+	padding-right: 35px;
+	color: rgb(110, 109, 109);
+}
+
+.job_title {
+	font-weight: bold;
+}
+
+.job_descr {
+	padding-bottom: 20px;
+	text-align: justify;
+}
 
 /*
 @media only screen and (max-width: 480px) {

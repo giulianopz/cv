@@ -1,17 +1,47 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
   <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
-<body>
-  <div id="main">
-    <div id="content">
+
+<body style="background-color:rgb(242, 242, 242)" >
+<div id="main">
+  <div id="content">
+
     {{ content }}
-    </div>
+
+    <table class="center" style="width: 75%">
+      <thead>
+        <tr>
+          <th scope="colgroup" class="section_title">Experience</th>
+        </tr>
+        <colgroup>
+          <col width="10%" />
+          <col width="60%" />
+        </colgroup>
+      </thead>
+      <tbody>
+        {% for job in site.data.experience %}
+        <tr>
+          <td class="job_duration">{{ job.duration }}</td>
+          <td class="job_title">{{ job.position }}, {{ job.company }}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="job_descr">{{ job.summary }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
   </div>
+</div>
 </body>
+
 </html>
