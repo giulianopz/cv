@@ -291,17 +291,22 @@ strong {
 	padding-right: 35px;
 }
 
-.job_duration {
+.left_column {
 	text-align: right;
 	padding-right: 35px;
 	color: rgb(110, 109, 109);
 }
 
-.job_title {
+.right_column_title {
 	font-weight: bold;
 }
 
-.job_descr {
+.right_column {
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.right_column_descr {
 	padding-bottom: 20px;
 	text-align: justify;
 }

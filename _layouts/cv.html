@@ -10,38 +10,56 @@
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
-<body style="background-color:rgb(242, 242, 242)" >
-<div id="main">
-  <div id="content">
+<body style="background-color:rgb(242, 242, 242)">
+  <div id="main">
+    <div id="content">
 
-    {{ content }}
+      {{ content }}
 
-    <table class="center" style="width: 85%">
-      <thead>
-        <tr>
-          <th scope="colgroup" class="section_title">Professional Experience</th>
-        </tr>
-        <colgroup>
-          <col width="20%" />
-          <col width="75%" />
-        </colgroup>
-      </thead>
-      <tbody>
-        {% for job in site.data.experience %}
-        <tr>
-          <td class="job_duration">{{ job.duration }}</td>
-          <td class="job_title">{{ job.position }}, {{ job.company }}</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td class="job_descr">{{ job.summary }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Core Skills</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left_column">tech stack</td>
+            <td class="right_column"> {{ site.data.skills | join: ', ' }} </td>
+          </tr>
+        </tbody>
+      </table>
 
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Professional Experience</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for job in site.data.experience %}
+          <tr>
+            <td class="left_column">{{ job.duration }}</td>
+            <td class="right_column_title">{{ job.position }}, {{ job.company }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right_column_descr">{{ job.summary }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+    </div>
   </div>
-</div>
 </body>
 
 </html>
