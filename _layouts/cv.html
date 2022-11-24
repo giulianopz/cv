@@ -127,10 +127,10 @@
               {% for c in cert.group %}
               {{ c.name }}
               {% if c.shortName != nil %}
-               <a style="font-weight: bold">({{ c.shortName }})</a>
+              <a style="font-weight: bold">({{ c.shortName }})</a>
               {% endif %}
               {% if c.id != nil %}
-              -  <a href="{{ c.link }}">{{ c.id }}</a>
+              - <a href="{{ c.link }}">{{ c.id }}</a>
               {% endif %}
               <br>
               {% endfor %}
@@ -164,10 +164,58 @@
         </tbody>
       </table>
 
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Languages</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for lang in site.data.languages %}
+          <tr>
+            <td class="left_column"></td>
+            <td class="right_column_descr">{{ lang.name }} ({{ lang.level }})</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Awards</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for a in site.data.awards %}
+          <tr>
+            <td class="left_column">{{ a.year }}</td>
+            <td class="right_column_title">{{ a.name }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right_column_descr">{{ a.description }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
     </div>
   </div>
 </body>
+<div id="footer" style="padding-top: 100px">
+  
+  <!-- last updated: 24 November 2022 -->
+
+</div>
 
 </html>
 
-<!-- last updated: 24 November 2022 -->
