@@ -30,9 +30,12 @@
           <tr>
             <td class="section_title">Overview</td>
             <td class="right_column"><br>
-              I'm a backend developer, working in IT consulting since 2019. For the past few years, I've been busy mostly with server-side projetcs, 
-              distributed systems and cloud development to build telecommunications and financials services. I was a Linguistics graduate 
-              (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief excursion into academia as research 
+              I'm a backend developer, working in IT consulting since 2019. For the past few years, I've been busy
+              mostly with server-side projetcs,
+              distributed systems and cloud development to build telecommunications and financials services. I was a
+              Linguistics graduate
+              (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief
+              excursion into academia as research
               assistant in the NLP group of my uni.
             </td>
           </tr>
@@ -52,7 +55,7 @@
         <tbody>
           <tr>
             <td class="section_title">Core Skills</td>
-            <td class="right_column" ><br> {{ site.data.skills | join: ', ' }} </td>
+            <td class="right_column"><br> {{ site.data.skills | join: ', ' }} </td>
           </tr>
         </tbody>
       </table>
@@ -81,6 +84,62 @@
         </tbody>
       </table>
 
+
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Volunteering</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for activity in site.data.volunteering %}
+          <tr>
+            <td class="left_column">{{ activity.duration }}</td>
+            <td class="right_column_title">{{ activity.position }}, {{ activity.institute }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right_column_descr">{{ activity.summary }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Certifications</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for cert in site.data.certs %}
+          <tr>
+            <td class="left_column">{{ cert.year }}</td>
+            <td class="right_column_descr">
+              {% for c in cert.group %}
+              {{ c.name }}
+              {% if c.shortName != nil %}
+               <a style="font-weight: bold">({{ c.shortName }})</a>
+              {% endif %}
+              {% if c.id != nil %}
+              -  <a href="{{ c.link }}">{{ c.id }}</a>
+              {% endif %}
+              <br>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
       <table class="center" style="width: 85%">
         <thead>
           <tr>
@@ -95,7 +154,7 @@
           {% for stage in site.data.education %}
           <tr>
             <td class="left_column">{{ stage.duration }}</td>
-            <td class="right_column_title">{{ stage.institution }} </td>
+            <td class="right_column_title">{{ stage.institute }}</td>
           </tr>
           <tr>
             <td></td>
@@ -110,3 +169,5 @@
 </body>
 
 </html>
+
+<!-- last updated: 24 November 2022 -->
