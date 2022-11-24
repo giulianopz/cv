@@ -81,6 +81,30 @@
         </tbody>
       </table>
 
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
+            <th scope="colgroup" class="section_title">Education</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          {% for stage in site.data.education %}
+          <tr>
+            <td class="left_column">{{ stage.duration }}</td>
+            <td class="right_column_title">{{ stage.institution }} </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="right_column_descr">{{ stage.title }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
     </div>
   </div>
 </body>
