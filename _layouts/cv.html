@@ -127,7 +127,7 @@
               {% for c in cert.group %}
               {{ c.name }}
               {% if c.shortName != nil %}
-              <a style="font-weight: bold">({{ c.shortName }})</a>
+              <strong>({{ c.shortName }})</strong>
               {% endif %}
               {% if c.id != nil %}
               - <a href="{{ c.link }}">{{ c.id }}</a>
