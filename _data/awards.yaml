@@ -1,4 +1,5 @@
-#awards
+# awards
+
 - year: 2020
   name: Linux Foundation Training (LiFT) Scholarship
-  description: I was awarded a <a href="https://www.linuxfoundation.org/about/lift-scholarships">LiFT</a> scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes <a href="https://github.com/giulianopz/lfcs">here</a>.
+  description: I was awarded a <a href="https://www.linuxfoundation.org/about/lift-scholarships">LiFT</a> scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes <a href="https://giulianopz.github.io/lfcs/">here</a>.

@@ -30,9 +30,9 @@
           <tr>
             <td class="section_title">Overview</td>
             <td class="right_column"><br>
-              I'm a backend developer, working in IT consulting since 2019. For the past few years, I've been mostly busy
-              with server-side projects,
-              distributed systems and cloud development to build telecommunications and financials services. I was a
+              I'm a programmer working in IT consulting since 2019. For the past few years, I've been mostly
+              busy with server-side projects,
+              distributed systems and cloud development to build telecommunications and financial services. I was a
               Linguistics graduate
               (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief
               excursion into academia as research
@@ -63,7 +63,7 @@
       <table class="center" style="width: 85%">
         <thead>
           <tr>
-            <th scope="colgroup" class="section_title">Professional Experience</th>
+            <th scope="colgroup" class="section_title">Experience</th>
           </tr>
           <colgroup>
             <col width="20%" />
@@ -76,10 +76,12 @@
             <td class="left_column">{{ job.duration }}</td>
             <td class="right_column_title">{{ job.position }}, {{ job.company }}</td>
           </tr>
+          {% for line in job.summary %}
           <tr>
             <td></td>
-            <td class="right_column_descr">{{ job.summary }}</td>
+            <td class="right_column_descr">{{ line }}</td>
           </tr>
+          {% endfor %}
           {% endfor %}
         </tbody>
       </table>
@@ -212,10 +214,9 @@
   </div>
 </body>
 <div id="footer" style="padding-top: 10px">
-  
+
   <!-- last updated: 24 November 2022 -->
 
 </div>
 
 </html>
-

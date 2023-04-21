@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  serve:
+    cmds:
+      - jekyll serve --livereload
+  publish:
+    cmds:
+      - git checkout gh-pages && git merge master && git push && git checkout -

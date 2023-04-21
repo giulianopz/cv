@@ -1,31 +1,40 @@
-#jobs
+# jobs
 
 - duration: 2021 - now
   position: Application Development Specialist
   company: Accenture
-  summary: I'm developing containerized microservices in Go supporting a data governance infrastructure based upon Microsoft Azure.
+  summary: 
+  - I'm developing containerized applications and CLI tools in the Go programming language supporting the implementation of a data mesh architecture based upon Microsoft Azure products.
+  - Fully switched to a Debian-based OS as my one and only working environment. 
 
 - duration: 2020 - 2021
   position: Application Development Senior Analyst
   company: Accenture
-  summary: I developed a bunch of Java applications based on Quarkus and deployed to Openshift Container Platform to manage corporate accounts for a private bank operating in Europe. I had the chanche to work in an Agile/scrum environment for the first time.
+  summary: 
+  - Developed a bunch of Java applications based on Quarkus and deployed to the Openshift Container Platform to manage corporate accounts for a private bank operating in Europe. 
+  - I had the chance to work in an Agile/Scrum environment for the first time.
 
 - duration: 2019 - 2020
   position: Application Development Analyst
   company: Accenture
-  summary: Development of RESTful web services with common Java frameworks, libraries and tools (Maven, Spring, Hibernate, Tomcat, Jackson, Junit, Mockito, MySQL, PostgreSQL, SLF4J, SonarQube) deployed to popular cloud providers (Cloud Foudry, Amazon EC2). I started actively using the Windows Subsystem for Linux (WSL v.1) as my regular development environment with the support of VS Code.
+  summary: 
+  - Worked on a wide range of RESTful web services with common Java frameworks, libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) deployed to popular cloud solutions (e.g. Cloud Foudry, Amazon EC2). 
+  - I started actively using the Windows Subsystem for Linux (WSL) as my regular development environment.
 
 - duration: Mar:2019 - Jul:2019
   position: Internship Trainee
   company: Accenture
-  summary: I was introduced to the fundamentals of back-end development with Java and Spring (Boot) and the related tech stack.
+  summary: 
+  - I was introduced to the fundamentals of back-end development with Java and its related tech stack, especially the <a href="https://samatkinson.com/why-i-hate-spring/"><s>beloved</s></a> Spring Framework.
 
 - duration: 2017 - 2019
   position: Research Assistant
   company: Sapienza University of Rome
-  summary: I contributed to the creation of an AMR-like adjective lexicon for the <a href="http://mousse-project.org/">MOUSSE</a> project in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
+  summary: 
+  - I contributed to the creation of an AMR-like adjective lexicon for the <a href="http://mousse-project.org/">MOUSSE</a> project in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
 
 - duration: Oct:2017 - Dec:2017
   position: Linguistic Consultant
   company: Babelscape
-  summary: Creation and validation of natural language training corpus for machine learning.
+  summary: 
+  - Creation and validation of natural language training corpora for machine learning.
