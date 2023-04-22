@@ -35,8 +35,7 @@
               distributed systems and cloud development to build telecommunications and financial services. I was a
               Linguistics graduate
               (exploring syntax-semantics interface theory) in a previous life. I started coding during a brief
-              excursion into academia as research
-              assistant in the NLP group of my uni.
+              excursion into academia. Always been a full-stack student.
             </td>
           </tr>
         </tbody>
@@ -45,7 +44,7 @@
       <table class="center" style="width: 85%">
         <thead>
           <tr>
-            <th scope="colgroup"></th>
+            <th scope="colgroup" class="section_title">Skills</th>
           </tr>
           <colgroup>
             <col width="20%" />
@@ -54,8 +53,12 @@
         </thead>
         <tbody>
           <tr>
-            <td class="section_title">Core Skills</td>
-            <td class="right_column"><br> {{ site.data.skills | join: ', ' }} </td>
+            <td class="left_column">Proficient</td>
+            <td class="right_column">{{ site.data.skills.core | join: ', ' }} </td>
+          </tr>
+          <tr>
+            <td class="left_column">Wanna Learn</td>
+            <td class="right_column">{{ site.data.skills.wanna | join: ', ' }} </td>
           </tr>
         </tbody>
       </table>
@@ -132,7 +135,7 @@
               <strong>({{ c.shortName }})</strong>
               {% endif %}
               {% if c.id != nil %}
-              - <a href="{{ c.link }}">{{ c.id }}</a>
+              - (id: <a href="{{ c.link }}">{{ c.id }}</a>)
               {% endif %}
               <br>
               {% endfor %}
@@ -169,6 +172,24 @@
       <table class="center" style="width: 85%">
         <thead>
           <tr>
+            <th scope="colgroup" class="section_title">Spare Time</th>
+          </tr>
+          <colgroup>
+            <col width="20%" />
+            <col width="75%" />
+          </colgroup>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left_column"></td>
+            <td class="right_column_descr">{{ site.data.spare-time | join: ', ' }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="center" style="width: 85%">
+        <thead>
+          <tr>
             <th scope="colgroup" class="section_title">Languages</th>
           </tr>
           <colgroup>
@@ -179,7 +200,7 @@
         <tbody>
           {% for lang in site.data.languages %}
           <tr>
-            <td class="left_column">-</td>
+            <td class="left_column"></td>
             <td class="right_column_descr">{{ lang.name }} ({{ lang.level }})</td>
           </tr>
           {% endfor %}
