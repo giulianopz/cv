@@ -8,6 +8,7 @@
   <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="http://www.catb.org/hacker-emblem/glider.png">
 </head>
 
 <body style="background-color:rgb(242, 242, 242)">
@@ -163,27 +164,9 @@
           </tr>
           <tr>
             <td></td>
-            <td class="right_column_descr">{{ stage.title }}</td>
+            <td class="right_column_descr">{{ stage.description }}</td>
           </tr>
           {% endfor %}
-        </tbody>
-      </table>
-
-      <table class="center" style="width: 85%">
-        <thead>
-          <tr>
-            <th scope="colgroup" class="section_title">Spare Time</th>
-          </tr>
-          <colgroup>
-            <col width="20%" />
-            <col width="75%" />
-          </colgroup>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="left_column"></td>
-            <td class="right_column_descr">{{ site.data.spare-time | join: ', ' }}</td>
-          </tr>
         </tbody>
       </table>
 
@@ -210,7 +193,7 @@
       <table class="center" style="width: 85%">
         <thead>
           <tr>
-            <th scope="colgroup" class="section_title">Awards</th>
+            <th scope="colgroup" class="section_title">Spare Time</th>
           </tr>
           <colgroup>
             <col width="20%" />
@@ -218,16 +201,10 @@
           </colgroup>
         </thead>
         <tbody>
-          {% for a in site.data.awards %}
           <tr>
-            <td class="left_column">{{ a.year }}</td>
-            <td class="right_column_title">{{ a.name }}</td>
+            <td class="left_column"></td>
+            <td class="right_column_descr">{{ site.data.spare-time | join: ', ' }}</td>
           </tr>
-          <tr>
-            <td></td>
-            <td class="right_column_descr">{{ a.description }}</td>
-          </tr>
-          {% endfor %}
         </tbody>
       </table>
 

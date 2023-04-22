@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: giuliano panzironi
+title: giuliano_panzironi
 ---
 # Giuliano Panzironi
 /\*Computer Programmer\*/
