@@ -11,6 +11,7 @@ title: giuliano_panzironi
 | <a href="https://www.linkedin.com/in/giuliano-panzironi/" class="fab fa-linkedin"></a>
 | <a href="https://twitter.com/giulianopz" class="fab fa-twitter"></a>
 | <a href="https://hachyderm.io/web/@giulianopz" class="fab fa-mastodon"></a>
+| <a href="https://www.ifixit.com/User/3323023/Giuliano+Panzironi" class="fa-solid fa-screwdriver-wrench"></a>
 </div>
 <br>
 <br>
