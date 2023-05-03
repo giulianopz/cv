@@ -18,7 +18,7 @@
   position: Application Development Analyst
   company: Accenture
   summary: 
-  - Worked on a bunch of RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) and deployed to (hence) popular cloud solutions (e.g. Cloud Foudry, Amazon EC2) to serve data to a dashboard for the OEM division of a automobile manufacturer in the United States. 
+  - Worked on a bunch of RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) and deployed to (hence) popular cloud solutions (e.g. Cloud Foudry, Amazon EC2) to serve data to a dashboard for the OEM division of a US automobile manufacturer. 
   - I started actively using the Windows Subsystem for Linux (WSL) as my regular development environment.
 
 - duration: Mar:2019 - Jul:2019
