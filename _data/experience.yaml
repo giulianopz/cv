@@ -4,7 +4,7 @@
   position: Application Development Specialist
   company: Accenture
   summary: 
-  - I'm developing containerized applications and CLI tools in the Go programming language supporting the implementation of a data mesh architecture based upon Microsoft Azure products.
+  - I'm developing containerized applications and CLI tools in the Go programming language which are meant to be building blocks of a data platform supporting a <a href="https://www.datamesh-architecture.com/">data mesh architecture</a> based upon Databricks and Azure.
   - Fully switched to a Debian-based OS as my one and only working environment. 
 
 - duration: 2020 - 2021
@@ -18,7 +18,7 @@
   position: Application Development Analyst
   company: Accenture
   summary: 
-  - Worked on a wide range of RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) deployed to popular cloud solutions (e.g. Cloud Foudry, Amazon EC2). 
+  - Worked on a bunch of RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) and deployed to (hence) popular cloud solutions (e.g. Cloud Foudry, Amazon EC2) to serve data to a dashboard for the OEM division of a automobile manufacturer in the United States. 
   - I started actively using the Windows Subsystem for Linux (WSL) as my regular development environment.
 
 - duration: Mar:2019 - Jul:2019
@@ -26,6 +26,7 @@
   company: Accenture
   summary: 
   - I was introduced to the fundamentals of back-end development with Java and its related tech stack, especially the <a href="https://samatkinson.com/why-i-hate-spring/"><s>beloved</s></a> Spring Framework.
+  - Helped to build a data retention system for a telephone operator in Italy.
 
 - duration: 2017 - 2019
   position: Research Assistant
