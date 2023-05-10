@@ -4,7 +4,7 @@
   position: Application Development Specialist
   company: Accenture
   summary: 
-  - I'm developing containerized applications and CLI tools in the Go programming language which are meant to be building blocks of a data platform supporting a <a href="https://www.datamesh-architecture.com/">data mesh architecture</a> based upon Databricks and Azure.
+  - I'm developing containerized applications and CLI tools in the Go programming language which are meant to be building blocks of a data platform supporting a data mesh architecture based upon Databricks and Azure.
   - Fully switched to a Debian-based OS as my one and only working environment. 
 
 - duration: 2020 - 2021
