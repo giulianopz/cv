@@ -54,11 +54,15 @@
         <tbody>
           <tr>
             <td class="left_column">Proficient</td>
-            <td class="right_column">{{ site.data.skills.core | join: ', ' }} </td>
+            <td class="right_column">{{ site.data.skills.proficient | join: ', ' }} </td>
           </tr>
           <tr>
-            <td class="left_column">Wanna Learn</td>
-            <td class="right_column">{{ site.data.skills.wanna | join: ', ' }} </td>
+            <td class="left_column">Actively Learning</td>
+            <td class="right_column">{{ site.data.skills.actively-learning | join: ', ' }} </td>
+          </tr>
+          <tr>
+            <td class="left_column">Hobby Level</td>
+            <td class="right_column">{{ site.data.skills.hobby-level | join: ', ' }} </td>
           </tr>
         </tbody>
       </table>

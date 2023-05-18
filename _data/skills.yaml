@@ -1,14 +1,22 @@
 # skills
 
-core:
+proficient:
 - Go
 - Java
 - GNU/Linux
-- Containers
+- containers
 - Kubernetes
+- git
+- bash
+- REST API
+- SQL
 
-wanna:
-- C/C++
-- Computer Systems
-- Hardware Programming
+actively-learning:
+- C
+- computer systems
+- systems programming
+
+hobby-level:
+- Arduino
+- electronics
 - Zig
