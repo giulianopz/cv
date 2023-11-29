@@ -1,24 +1,22 @@
-# jobs
-
 - duration: 2021 - now
   position: Application Development Specialist
   company: Accenture
   summary: 
-  - I'm developing a bunch of containerized applications and CLI tools in the Go programming language which are meant to be building blocks of a data platform for a data mesh architecture based upon Azure tech stack.
+  - I'm developing a bunch of containerized applications and CLI tools in the Go programming language which are meant to be reusable components of a data mesh architecture based upon Azure tech stack.
   - Fully switched to a Debian-based OS as my one and only working environment. 
 
 - duration: 2020 - 2021
   position: Application Development Senior Analyst
   company: Accenture
   summary: 
-  - Developed a bunch of Java applications based on Quarkus and deployed to the Openshift Container Platform (OCP) via traditional CI/CD pipelines like Jenkins to manage corporate accounts for a private bank operating in Europe. 
+  - Developed backends based on Quarkus and deployed to the Openshift Container Platform (OCP) via traditional CI/CD pipelines like Jenkins to manage corporate accounts for a private bank operating in Europe. 
   - I had the chance to work in an Agile/Scrum environment for the first time.
 
 - duration: 2019 - 2020
   position: Application Development Analyst
   company: Accenture
   summary: 
-  - Worked on a bunch of RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) and deployed to (hence) popular cloud solutions (e.g. Cloud Foudry, Amazon EC2) to serve data to a dashboard for the OEM division of a US automobile manufacturer. 
+  - Worked on RESTful web services built with common Java libraries and tools (Maven, Hibernate, Tomcat, Jackson, Junit, Mockito, SLF4J, etc.) and deployed to (hence) popular cloud solutions (e.g. Cloud Foudry, Amazon EC2) to serve data to a dashboard for the OEM division of a US automobile manufacturer. 
   - I started actively using the Windows Subsystem for Linux (WSL) as my regular development environment.
 
 - duration: Mar:2019 - Jul:2019
@@ -33,9 +31,12 @@
   company: Sapienza University of Rome
   summary: 
   - I contributed to the creation of an <a href="https://en.wikipedia.org/wiki/Abstract_Meaning_Representation">AMR</a>-like adjective lexicon for the <a href="http://mousse-project.org/">MOUSSE</a> project in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
+  - Learned a programming language formally (in class) for the first time.
+  - Passing most of the day in a room packed with nerdy people exposed me to programming in a way that still influences somehow.
 
 - duration: Oct:2017 - Dec:2017
   position: Linguistic Consultant
   company: Babelscape
   summary: 
   - Creation and validation of natural language training corpora for machine learning.
+  - Started playing with Python to write small hacks for automating boring stuff.

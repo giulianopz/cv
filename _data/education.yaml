@@ -1,16 +1,17 @@
-# edu
-
 - duration: 2020 - 2021
   institute: The Linux Foundation
-  description: I was awarded a <a href="https://www.linuxfoundation.org/about/lift-scholarships">LiFT</a> scholarship offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. You can find my study notes <a href="https://giulianopz.github.io/lfcs/">here</a>.
+  description: I was awarded a <a href="https://www.linuxfoundation.org/about/lift-scholarships">LiFT</a> scholarship kindly offered by The Linux Foundation providing free access to their online learning platform course catalog. I took the LFS201 course to prepare me for the LFCS exam. 
+  notes: You can find my study notes <a href="https://giulianopz.github.io/lfcs/">here</a>.
 
 - duration: 2015 - 2017
   institute: Sapienza University of Rome, Rome
   description: Master's degree, Linguistics
+  notes: semantics, lexical knowledge representation, theories of syntax, linguistic typology
 
 - duration: 2012 - 2015
   institute: Sapienza University of Rome, Rome
-  description: Bachelor's degree, Classics
+  description: Bachelor's degree, Classics 
+  notes: very ancient suff  
 
 - duration: 2005 - 2010
   institute: Liceo Ginnasio Immanuel Kant, Rome
