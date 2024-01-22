@@ -3,6 +3,82 @@
    License: none (public domain)
 */
 
+@media screen and (max-width: 850px) {
+
+	div#me h1 {
+		text-align: center;
+		font-size: 3em;
+		line-height: 1em;
+	}
+
+	div#me p {
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	#webaddress {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		text-align: center;
+		color: #11118e;
+		font-family: Monaco, Menlo, monospace, sans-serif;
+	}
+
+	.left_column {
+		text-align: left;
+		font-size: x-small;
+	}
+
+	.section_title,
+	.right_column,
+	.right_column_title,
+	.right_column_descr {
+		font-size: smaller;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+	div#me h1 {
+		position: relative;
+		left: 25%;
+		font-size: 3em;
+		line-height: 1em;
+		margin-bottom: 1%;
+	}
+
+	div#me p {
+		position: relative;
+		left: 25%;
+		margin-bottom: 0.7em;
+		margin-right: 0;
+	}
+
+
+	.section_title {
+		padding-bottom: 30px;
+		font-size: larger;
+		text-align: right;
+		padding-right: 35px;
+	}
+
+	.left_column {
+		text-align: right;
+		padding-right: 35px;
+	}
+
+	#webaddress {
+		margin-top: 1em;
+		margin-bottom: 3em;
+		position: relative;
+		left: 25%;
+		color: #11118e;
+		font-family: Monaco, Menlo, monospace, sans-serif;
+		font-size: 100%;
+	}
+}
+
 html,
 body,
 div,
@@ -148,15 +224,6 @@ body {
 	margin-left: 1em;
 }
 
-p {
-	position: relative;
-	left: 25%;
-	margin-bottom: 0.7em;
-	margin-right: 0;
-	width: 55%;
-	text-align: left;
-}
-
 code {
 	font: normal normal;
 	font-size: 90%;
@@ -205,17 +272,9 @@ h1,
 h2,
 h3,
 h4 {
-	font-weight: 400;
+	/* font-weight: 400; */
 	font-family: Avenir, Cousine, Verdana, sans-serif;
-	width: 80%;
-}
-
-h1 {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1em;
-	position: relative;
-	left: 25%;
+	/* width: 80%; */
 }
 
 h1+p {
@@ -253,15 +312,6 @@ a:hover {
 	color: #39f
 }
 
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #11118e;
-	font-family: Monaco, Menlo, monospace, sans-serif;
-	font-size: 100%;
-}
-
 #webaddress a {
 	text-decoration: none;
 }
@@ -279,22 +329,13 @@ strong {
 	display: none;
 }
 
+.left_column {
+	color: rgb(110, 109, 109);
+}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.section_title {
-	padding-bottom: 30px;
-	font-size: larger;
-	text-align: right;
-	padding-right: 35px;
-}
-
-.left_column {
-	text-align: right;
-	padding-right: 35px;
-	color: rgb(110, 109, 109);
 }
 
 .right_column_title {
