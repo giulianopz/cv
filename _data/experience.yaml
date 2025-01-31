@@ -1,8 +1,14 @@
-- duration: 2021 - now
+- duration: Jan/2025 - present
+  position: SDE
+  company: EnterpriseDB (EDB)
+  summary: 
+  - Observability & PostgreSQL.
+
+- duration: 2021 - Jan/2025
   position: Application Development Specialist
   company: Accenture
   summary: 
-  - I'm developing containerized applications and CLI tools in the Go programming language which are meant to be reusable components in a data platform, helping the client to implement a data mesh architecture based upon Azure tech stack.
+  - I have been developing containerized services and CLI tools in Go meant to be reusable components for implementing a data mesh architecture based upon the Azure tech stack.
 
 - duration: 2020 - 2021
   position: Application Development Senior Analyst
@@ -24,7 +30,7 @@
   - I was introduced to the fundamentals of back-end development with Java and its related tech stack, especially the Spring framework.
   - I helped to build a data retention system for a telephone operator in Italy to comply with the requirements prescribed by the applicable law and regulations.
 
-- duration: 2017 - 2019
+- duration: 2018 - Mar/2019
   position: Research Assistant
   company: Sapienza University of Rome
   summary: 
