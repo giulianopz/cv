@@ -1,6 +1,5 @@
 proficient:
 - Go
-- Java
 - bash
 - SQL
 - git
@@ -8,12 +7,22 @@ proficient:
 - containers
 - Kubernetes
 - REST API
+- software design
+
+intermediate:
+- observability
+- performance analysis
+- Protobuf/gRPC
+- PostgreSQL
+
+basic:
+- Redis
+- Kafka
+- system design
+- distributed systems
+- open-table formats
 
 actively-learning:
-- C
+- modern C
 - systems programming
-
-hobby-level:
-- Arduino
-- electronics
-- Zig
+- database internals

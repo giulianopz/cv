@@ -4,7 +4,7 @@ title: giuliano_panzironi
 ---
 <div id="me">
 <h1>Giuliano Panzironi</h1>
-<p>/*Computer Programmer*/</p>
+<p>/*computer programmer*/</p>
 
 </div>
 
