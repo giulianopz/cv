@@ -10,16 +10,19 @@ proficient:
 - software design
 
 intermediate:
-- Protobuf/gRPC
 - observability
 - Kafka
 - object storage
+- Delta Lake
+- PostgreSQL
+
+basic:
+- Protobuf/gRPC
+- Redis
+- system design
 
 actively-learning:
 - C
 - Rust
 - systems programming
 - database internals
-
-unused:
-- Java
