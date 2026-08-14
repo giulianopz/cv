@@ -1,6 +1,6 @@
 - year: 2021
   group:
-  - name: Linux Foundation Certified System Administrator 
+  - name: Linux Foundation Certified System Administrator
     shortName: LFCS
     id: "expired"
     link: https://training.linuxfoundation.org/certification/verify/
@@ -9,5 +9,5 @@
   group:
   - name: Certified Kubernetes Application Developer
     shortName: CKAD
-    id: LF-ja2b3qn3x6
+    id: "expired"
     link: https://training.linuxfoundation.org/certification/verify/

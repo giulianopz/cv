@@ -11,18 +11,18 @@ proficient:
 
 intermediate:
 - observability
-- Kafka
-- object storage
-- Delta Lake
+- performance analysis
+- Protobuf/gRPC
 - PostgreSQL
 
 basic:
-- Protobuf/gRPC
 - Redis
+- Kafka
 - system design
+- distributed systems
+- open-table formats
 
 actively-learning:
-- C
-- Rust
+- modern C
 - systems programming
 - database internals
