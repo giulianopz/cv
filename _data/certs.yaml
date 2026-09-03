@@ -1,13 +1,14 @@
+# Both certs below are expired.
+# I should consider if investing my time for renewing them has any value.
+# ATM, I would say this is not the case.
 - year: 2021
   group:
   - name: Linux Foundation Certified System Administrator
     shortName: LFCS
-    id: "expired"
     link: https://training.linuxfoundation.org/certification/verify/
 
 - year: 2022
   group:
   - name: Certified Kubernetes Application Developer
     shortName: CKAD
-    id: "expired"
     link: https://training.linuxfoundation.org/certification/verify/

@@ -2,42 +2,30 @@
   position: Senior SDE
   company: EnterpriseDB (EDB)
   summary:
-  - Building a monitoring, diagnostics and alerting system for Postgres clusters. Key tracking metrics include query latency, QPS, TPS, wait events and lock contention, WAL usage, replication status, autovacuum performance, and more. See <a href="https://www.enterprisedb.com/products/hybrid-manager">enterprisedb.com/products/hybrid-manager</a>.
+  - I have contributed to the development of a Go-based observability platform for PostgreSQL clusters across cloud and on-premises Kubernetes environments. Key capabilities include&colon;
+  - </i> &ast; a metrics and alerting service, backed by Prometheus/Thanos, tracking query latency, QPS/TPS, wait events, replication, autovacuum performance, and more.
+  - </i> &ast; a performance diagnostics and recommendations engine, on PostgreSQL (CNPG), that surfaces index, security and configuration suggestions and generates automated cluster health reports.
+  - </i> &ast; a high-throughput telemetry ingestion pipeline, instrumented with OpenTelemetry.
+  - Additionally, I have authored technical RFCs to architect new features, evaluating design approaches and engineering tradeoffs prior to implementation.
+  - See <a href="https://www.enterprisedb.com/products/hybrid-manager">enterprisedb.com/products/hybrid-manager</a>.
 
-- duration: 2021 - Jan/2025
-  position: Application Development Specialist
+- duration: Mar/2019 - Jan/2025
+  position: SDE
   company: Accenture
   summary:
-  - I have been developing containerized services and CLI tools in Go meant to be reusable components for implementing a data mesh architecture based upon the Azure tech stack.
-
-- duration: 2020 - 2021
-  position: Application Development Senior Analyst
-  company: Accenture
-  summary:
-  - Developed backends based on Quarkus, built and deployed to the Openshift Container Platform (OCP) via Jenkins pipelines, to manage corporate accounts for a private bank operating in Western Europe. The project allowed the client to fully digitalize the onboarding process of new customers.
-  - I had the chance to work in an Agile/Scrum environment for the first time.
-
-- duration: 2019 - 2020
-  position: Application Development Analyst
-  company: Accenture
-  summary:
-  - Worked on RESTful web services based on Java and deployed to (hence) popular cloud solutions (e.g. Cloud Foundry, Amazon EC2) which served aggregated data to a dashboard for the original equipment manufacturer (OEM) division of an automotive multinational corporation in order to improve their customer support.
-
-- duration: Mar/2019 - Jul/2019
-  position: Internship Trainee
-  company: Accenture
-  summary:
-  - I was introduced to the fundamentals of back-end development with Java and its related tech stack, especially the Spring framework.
-  - I helped to build a data retention system for a telephone operator in Italy to comply with the requirements prescribed by the applicable law and regulations.
+  - <strong>* 2021 - 2025, Application Development Specialist:</strong> Developed containerized services and CLI tools in Go as reusable building blocks for a data mesh architecture on Azure.
+  - <strong>* 2020 - 2021, Application Development Senior Analyst:</strong> Developed backends based on Quarkus, built and deployed to the Openshift Container Platform (OCP) via Jenkins pipelines, to manage corporate accounts for a private bank operating in Western Europe. The project allowed the client to fully digitalize the onboarding process of new customers. Worked in an Agile/Scrum environment for the first time.
+  - <strong>* 2019 - 2020, Application Development Analyst:</strong> Worked on RESTful web services based on Java and deployed to (hence) popular cloud solutions (e.g. Cloud Foundry, Amazon EC2) which served aggregated data to a dashboard for the original equipment manufacturer (OEM) division of an automotive multinational corporation in order to improve their customer support.
+  - <strong>* Mar/2019 - Jul/2019, Internship Trainee:</strong> Introduced to the fundamentals of back-end development with Java and its related tech stack, especially the Spring framework. Helped build a data retention system for a telephone operator in Italy to comply with the requirements prescribed by the applicable law and regulations.
 
 - duration: 2018 - Mar/2019
   position: Research Assistant
   company: Sapienza University of Rome
   summary:
-  - I contributed to the creation of an <a href="https://en.wikipedia.org/wiki/Abstract_Meaning_Representation">AMR</a>-like adjective lexicon for the <a href="http://mousse-project.org/">MOUSSE</a> project in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
+  - Contributed to the creation of an <a href="https://en.wikipedia.org/wiki/Abstract_Meaning_Representation">AMR</a>-like adjective lexicon for the <a href="http://mousse-project.org/">MOUSSE</a> project, an early foray into computational linguistics carried out in the Linguistic Computing Laboratory (LCL) of the CS department of Sapienza University of Rome.
 
 - duration: Oct/2017 - Dec/2017
   position: Linguistic Consultant
   company: Babelscape
   summary:
-  - Creation and validation of natural language training corpora for machine learning using Python to partially automate the process.
+  - Creation and validation of natural language training corpora for machine learning, writing Python scripts to partially automate the process — a first hands-on contact with programming.

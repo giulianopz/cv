@@ -14,13 +14,15 @@ intermediate:
 - performance analysis
 - Protobuf/gRPC
 - PostgreSQL
+- CloudNativePG
+- OpenTelemetry
 
 basic:
 - Redis
 - Kafka
 - system design
 - distributed systems
-- open-table formats
+- Prometheus/Thanos
 
 actively-learning:
 - modern C

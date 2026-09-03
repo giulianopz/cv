@@ -31,9 +31,13 @@
           <tr>
             <td class="section_title">Overview</td>
             <td class="right_column"><br>
-              I have been working as a software developer since 2019.
-              I was a Linguistics graduate (exploring syntax-semantics interface theory) in a previous life. I started
-              coding during a brief excursion into academia.
+              I have been working as a professional software developer since 2019.
+              I hold a Master's degree in Linguistics (exploring syntax-semantics interface theory) from Sapienza University of Rome,
+              and started coding during a brief excursion into academia. I have since grown from junior backend development in Java to
+              working, in Go, on a monitoring and diagnostics platform for Postgres clusters, while continuing to build up my
+              understanding of databases and distributed-systems internals.
+              My writing is on my <a href="https://giulianopz.github.io/">blog</a>, my code on
+              <a href="https://github.com/giulianopz">GitHub</a>.
             </td>
           </tr>
         </tbody>
@@ -139,12 +143,12 @@
               {{ c.name }}
               {% if c.shortName != nil %}
               <strong>({{ c.shortName }})</strong>
-              {% endif %}
+              <!-- {% endif %}
               {% if c.id == "expired" %}
               - (expired &#x1F622;)
               {% else if c.id != nil %}
               - (id: <a href="{{ c.link }}">{{ c.id }}</a>)
-              {% endif %}
+              {% endif %} -->
               <br>
               {% endfor %}
             </td>
